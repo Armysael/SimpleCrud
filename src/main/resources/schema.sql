@@ -1,0 +1,13 @@
+CREATE TABLE `Persona` (
+  `id` INT(11) NOT NULL,
+  `firstname` VARCHAR(50) NULL DEFAULT NULL,
+  `lastname` VARCHAR(50) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `Pais` (
+  `id` INT(11) NOT NULL,
+  `name` VARCHAR(50) NULL DEFAULT NULL,
+  `capital` VARCHAR(50) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
